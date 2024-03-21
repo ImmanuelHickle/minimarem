@@ -1,0 +1,34 @@
+{
+  "name": "minimarem",
+  "description": "Node.JS require extension to load TypeScript modules from JS",
+  "homepage": "https://github.com/ImmanuelHickle/minimarem.git",
+  "author": "ForestAnkunding",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImmanuelHickle/minimarem.git"
+  },
+  "dependencies": {
+    "typescript": ">= 0.8.2"
+  },
+  "keywords": [
+    "eum",
+    "require"
+  ],
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/ImmanuelHickle/minimarem.git/issues"
+  }
+}
